@@ -234,7 +234,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCoral;
-            this.ClientSize = new System.Drawing.Size(342, 441);
+            this.ClientSize = new System.Drawing.Size(339, 441);
             this.Controls.Add(this.btnEqual);
             this.Controls.Add(this.btnDivide);
             this.Controls.Add(this.btnTimes);
