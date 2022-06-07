@@ -43,7 +43,7 @@
             this.btn9 = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
-            this.btnTimes = new System.Windows.Forms.Button();
+            this.btnMultiply = new System.Windows.Forms.Button();
             this.btnDivide = new System.Windows.Forms.Button();
             this.btnEqual = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -199,15 +199,15 @@
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
             // 
-            // btnTimes
+            // btnMultiply
             // 
-            this.btnTimes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnTimes.Location = new System.Drawing.Point(257, 238);
-            this.btnTimes.Name = "btnTimes";
-            this.btnTimes.Size = new System.Drawing.Size(70, 60);
-            this.btnTimes.TabIndex = 15;
-            this.btnTimes.Text = "x";
-            this.btnTimes.UseVisualStyleBackColor = true;
+            this.btnMultiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMultiply.Location = new System.Drawing.Point(257, 238);
+            this.btnMultiply.Name = "btnMultiply";
+            this.btnMultiply.Size = new System.Drawing.Size(70, 60);
+            this.btnMultiply.TabIndex = 15;
+            this.btnMultiply.Text = "x";
+            this.btnMultiply.UseVisualStyleBackColor = true;
             // 
             // btnDivide
             // 
@@ -237,7 +237,7 @@
             this.ClientSize = new System.Drawing.Size(339, 441);
             this.Controls.Add(this.btnEqual);
             this.Controls.Add(this.btnDivide);
-            this.Controls.Add(this.btnTimes);
+            this.Controls.Add(this.btnMultiply);
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btn9);
@@ -279,7 +279,7 @@
         private Button btn9;
         private Button btnAdd;
         private Button btnMinus;
-        private Button btnTimes;
+        private Button btnMultiply;
         private Button btnDivide;
         private Button btnEqual;
     }
