@@ -23,5 +23,10 @@ namespace MyCalculator
             var result = new DataTable().Compute(equation, null);
             textBox1.Text = result.ToString();
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "0";
+        }
     }
 }
